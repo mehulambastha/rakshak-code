@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.background {
+  background-image: url("/static/images/towing.svg"),
+    url("/static/images/test.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: -10% 500%, 100% -150%;
+}

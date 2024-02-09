@@ -13,16 +13,13 @@ import TextField from '@mui/material/TextField';
 
 export default function Home() {
   return (
-    <div className=" min-h-screen min-w-screen bg-blue-100 text-black flex items-center justify-center">
-        <Card sx={{ minWidth: 275 }}>
-        <CardContent>
-
-        </CardContent>
-        <CardActions>
-          <Button size="small">Login</Button>
-          <Button size="small">Learn More</Button>
-        </CardActions>
-      </Card>
+    <div style={{backgroundColor: '#F2F2F2'}} className="background min-h-screen min-w-screen text-black flex flex-col items-center justify-center">
+      <p className="text-3xl mb-5">Online Driving Assessment<br />and Licensing System</p> <br /> <br /> By <a href="http://github.com/mehulambastha">Mehul Ambastha</a><br /><br />
+      <p>
+        <Button variant="contained" color="success">
+          Take me in!
+        </Button>
+      </p>
     </div>
   );
 }
