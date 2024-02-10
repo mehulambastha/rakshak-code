@@ -1,3 +1,4 @@
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import { Inter } from "next/font/google";
 import "./globals.css";
 import dynamic from 'next/dynamic';
@@ -16,8 +17,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Navbar />
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <AppRouterCacheProvider>
+          <Navbar />
+          {children}
+        </AppRouterCacheProvider>
+      </body>
     </html>
   );
 }

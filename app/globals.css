@@ -8,3 +8,9 @@
   background-repeat: no-repeat, no-repeat;
   background-position: -10% 500%, 100% -150%;
 }
+
+* {
+  margin: 0;
+  top: 0;
+  left: 0;
+}
