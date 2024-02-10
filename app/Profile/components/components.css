@@ -1,0 +1,14 @@
+/* .profileBackground {
+  background: url("/static/images/car.svg"), #f2f2f2;
+  background-repeat: no-repeat;
+  background-size: content;
+  background-opacity: 0.5;
+  background-filter: blur(30px);
+} */
+
+.testBackground {
+  background: url("/static/images/sittingTest.svg"), #ffffff;
+  background-repeat: no-repeat;
+  background-size: content;
+  background-position: 50% 150%;
+}
